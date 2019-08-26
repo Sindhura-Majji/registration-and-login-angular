@@ -1,0 +1,14 @@
+<header>
+    <mat-toolbar class="flex-container" fxLayout="row">
+    <mat-toolbar-row>
+      <span class="header">OnlineFashionRetails</span>
+      <span class="spacer"></span>
+      <!-- <button mat-button [matMenuTriggerFor]="menu">Support</button> -->
+      <!-- <mat-menu #menu="matMenu"> -->
+      <!-- </mat-menu> -->
+    <button mat-button>About us</button>
+        <a routerLink="/login"><button mat-button>Login</button></a>
+        <button mat-raised-button color="primary" (click)=openDialog()>SignUp</button>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </header>
